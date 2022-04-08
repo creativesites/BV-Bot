@@ -2721,7 +2721,7 @@ $jscomp.polyfill("Object.setPrototypeOf", function(d) {
     d = a(3);
     a.n(d);
     var h = document.createElement("template");
-    h.innerHTML = '\n  <style>\n    .title-wrapper {\n      align-items: center;\n      background-color: #42A5F5;\n      background-color: var(--df-messenger-button-titlebar-color);\n      border-radius: 5px 5px 0 0;\n      box-shadow: 0px 3px 6px 0px #00000029;\n      color: white;\n      color: var(--df-messenger-button-titlebar-font-color);\n      display: flex;\n      font-family: \'Roboto\', sans-serif;\n      font-size: 18px;\n      height: 50px;\n      justify-content: space-between;\n      padding-left: 15px;\n    }\n\n    #minimizeIcon {\n      fill: white;\n      fill: var(--df-messenger-button-titlebar-font-color);\n      margin: 15px;\n      transform: rotate(90deg);\n    }\n\n    @media screen and (min-width: 501px) {\n      #minimizeIcon {\n        visibility: hidden;\n      }\n    }\n  </style>\n  <div class="title-wrapper">\n    <div id="dfTitlebar"></div>\n    <svg height="24" viewBox="0 0 24 24"\n        id="minimizeIcon"\n        width="24" xmlns="http://www.w3.org/2000/svg">\n      <path d="M0 0h24v24H0z" fill="none"/>\n      <path d="M9 5v2h6.59L4 18.59 5.41 20 17 8.41V15h2V5z"/>\n    </svg>\n  </div>';
+    h.innerHTML = '\n  <style>\n    .title-wrapper {\n      align-items: center;\n      background-color: #ffffff;\n      background-color: var(--df-messenger-button-titlebar-color);\n      border-radius: 5px 5px 0 0;\n      box-shadow: 0px 3px 6px 0px #00000029;\n      color: white;\n      color: var(--df-messenger-button-titlebar-font-color);\n      display: flex;\n      font-family: \'Roboto\', sans-serif;\n      font-size: 18px;\n      height: 50px;\n      justify-content: space-between;\n      padding-left: 15px;\n    }\n\n    #minimizeIcon {\n      fill: white;\n      fill: var(--df-messenger-button-titlebar-font-color);\n      margin: 15px;\n      transform: rotate(90deg);\n    }\n\n    @media screen and (min-width: 501px) {\n      #minimizeIcon {\n        visibility: hidden;\n      }\n    }\n  </style>\n  <div class="title-wrapper">\n    <div id="dfTitlebar"></div>\n  <div class="gcse-search"></div>\n   <svg height="24" viewBox="0 0 24 24"\n        id="minimizeIcon"\n        width="24" xmlns="http://www.w3.org/2000/svg">\n      <path d="M0 0h24v24H0z" fill="none"/>\n      <path d="M9 5v2h6.59L4 18.59 5.41 20 17 8.41V15h2V5z"/>\n    </svg>\n  </div>';
     ShadyCSS.prepareTemplate(h, f.F);
     a = function() {
         return HTMLElement.call(this) || this;
@@ -2738,7 +2738,8 @@ $jscomp.polyfill("Object.setPrototypeOf", function(d) {
         });
     };
     customElements.define(f.F, a);
-}, function(d, c, a) {
+},
+ function(d, c, a) {
     var b = a(2), e = a(4), f = a(5), h = a(6), k = a(0), l = a(1);
     d = a(3);
     a.n(d);
