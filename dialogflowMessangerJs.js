@@ -2648,7 +2648,11 @@ $jscomp.polyfill("Object.setPrototypeOf", function(d) {
         var a = this.attachShadow({
             mode: "open"
         });
+        let fdfd = document.createElement('div');
+        fdfd.className = 'gcse-search';
+        a.appendChild(fdfd.content.cloneNode(!0));
         a.appendChild(h.content.cloneNode(!0));
+        
         this.messageList = Object(f.a)(b.A, a);
     };
     a.prototype.newMessage = function(a) {
