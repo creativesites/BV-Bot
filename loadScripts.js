@@ -6,7 +6,7 @@
   var WEBCOMPONENTS_LOADER_URL =
       'https://static.dialogflow.com/common/messenger/webcomponentsjs/2.1.3/webcomponents-loader.js';
   var MESSENGER_URL =
-      "https://cdn.jsdelivr.net/gh/creativesites/BV-Bot/dist/dialogflowMessangerJs.min.js";
+      "https://cdn.jsdelivr.net/gh/creativesites/BV-Bot/dialogflowMessangerJs.min.js";
   //https://www.gstatic.com/dialogflow-console/fast/messenger/messenger-internal.min.js?v=4
   var SEARCH_URL = 'https://cse.google.com/cse.js?cx=6c8c128804ad0621f'
 
